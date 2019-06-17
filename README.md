@@ -1,6 +1,6 @@
 # Premium6
 Strona premium6.pl przedstawiająca ofertę apartamentu na wynajem
-##Technologie 
+## Technologie 
 Bootstrap4
 VanillaJS
-CSS#
+CSS
