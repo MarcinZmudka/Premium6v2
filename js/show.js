@@ -3,22 +3,22 @@ const marks2 = document.querySelector('.marks2');
 const card = document.querySelectorAll('.card');
 const book = document.querySelector(".booktext");
 const bookP = document.querySelector('.bookPhoto');
-var table = [book, bookP,marks, marks2];
-for(let i=0; i < card.length; i++){
-  table.push(card[i]);
+var table = [book, bookP, marks, marks2];
+for(let a=0; a < card.length; a++){
+  table.push(card[a]);
 }
 window.addEventListener('scroll', show);
-
+show();
 function show(){
-  console.log("here i am");
-  for(let i =0; i < table.length; i++){
-    if(table[i].getBoundingClientRect().top < window.innerHeight-300){
-      table[i].className += " moveUp ";
-      table = table.filter((value, index, arr) => {
-        return index != i;
-      });
+  table = table.filter((value, index, arr) =>{
+    //return value.getBoundingClientRect().top < 0.8*window.innerHeight ? value.className += " moveUp " : value;
+    if(value.getBoundingClientRect().top < 0.8*window.innerHeight){ //zagadka z 
+      value.classList.add("moveUp");
     }
-  }
+    else{
+      return value;
+    }
+  });
   if(table.length == 0){
     window.removeEventListener('scroll', show, false);
   }
