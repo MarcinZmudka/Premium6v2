@@ -1,3 +1,6 @@
 # Premium6
-Strona napisana przy użyciu Bootstrap4, <br>
-W najbliższym czasie pojawią się pozostałe podstrony 
+Strona premium6.pl przedstawiająca ofertę apartamentu na wynajem
+##Technologie 
+Bootstrap4
+VanillaJS
+CSS#
