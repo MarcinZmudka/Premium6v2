@@ -7,8 +7,13 @@ var table = [book, bookP, marks, marks2];
 for(let a=0; a < card.length; a++){
   table.push(card[a]);
 }
-window.addEventListener('scroll', show);
-show();
+table = table.filter((value, index,arr) =>{
+  return value != null;
+})
+if(table.length > 0){
+  window.addEventListener('scroll', show);
+  show();
+}
 function show(){
   table = table.filter((value, index, arr) =>{
     //return value.getBoundingClientRect().top < 0.8*window.innerHeight ? value.className += " moveUp " : value;
