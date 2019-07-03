@@ -8,6 +8,9 @@
 
 <body>
   <?php $page = "apartament"; include 'includes/navbar.php' ?>
+  <div class="loader">
+    <div class="title">Premium 6</div>
+  </div>
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-1">
