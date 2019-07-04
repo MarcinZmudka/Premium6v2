@@ -85,7 +85,7 @@
                   <h5 class="card-title m-0">Zapytaj o wolny termin !</h5>
                 </div>
                 <div class="cardimg">
-                  <img src="images/calendar.jpg" alt="elo" class="card-img-bottom img-fluid">
+                  <img src="images/calendar.jpg" alt="" class="card-img-bottom img-fluid">
                   <!--<i class="fas fa-question"></i>-->
                 </div>
               </a>

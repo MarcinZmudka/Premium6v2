@@ -1,7 +1,3 @@
-window.load = () => {
-  document.querySelector('.loader').classList.add('complete');
-  document.querySelector('.title').classList.add('complete');
-}
 /*****deklaracja zmiennych*****/
 const marks = document.querySelector('.marks');
 const marks2 = document.querySelector('.marks2');
@@ -23,18 +19,4 @@ table = table.filter((value, index, arr) => {
 if (table.length > 0) {
   window.addEventListener('scroll', show);
   show();
-}
-/*****funckja dodająca klasę moveUp*****/
-function show() {
-  table = table.filter((value, index, arr) => {
-    if (value.getBoundingClientRect().top < 0.8 * window.innerHeight) { //zagadka z 
-      value.classList.add("moveUp");
-    }
-    else {
-      return value;
-    }
-  });
-  if (table.length == 0) {
-    window.removeEventListener('scroll', show, false);
-  }
 }

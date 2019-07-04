@@ -1,0 +1,18 @@
+.text{
+    margin-top: 5vh;
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 5vh;
+    font-family: "Raleway", sans-serif;
+}
+img{
+    margin: 2vh 0;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+h2{
+    font-family: "Raleway", sans-serif;
+    margin: 2vh 0;
+    font-weight: 700;
+}

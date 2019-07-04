@@ -3,13 +3,14 @@
 
 <head>
   <?php include 'includes/head.php' ?>
-  <link rel="stylesheet" href="apartament.css">
+  <link rel="stylesheet" href="css/apartament.css">
+  <link rel="stylesheet" href="css/apartament_box.css">
 </head>
 
 <body>
   <?php $page = "apartament"; include 'includes/navbar.php' ?>
   <div class="loader">
-    <div class="title">Premium 6</div>
+    <div class="title">Loading</div>
   </div>
   <div class="container-fluid">
     <div class="row">

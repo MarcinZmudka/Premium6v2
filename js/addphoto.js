@@ -17,7 +17,7 @@ for (let i = 0; i < 6; i++) {
 }
 let wrapper = document.querySelectorAll('.wrapper');
 /*********mieszanie zdjęc*********/
-function mix(array){
+function mix(array){ // przenieść do innego pliku
     array.filter((value, index, arr) => { 
         let number = Math.floor(Math.random() * array.length);
         let choosen = array[index];
