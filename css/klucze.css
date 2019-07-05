@@ -1,0 +1,11 @@
+h2{
+    font-family: "Raleway", sans-serif;
+    margin: 2vh 0;
+    font-weight: 700;
+}
+.text{
+    text-align: justify;
+}
+.photos{
+    position: relative;
+}

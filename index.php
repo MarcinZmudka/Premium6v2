@@ -58,7 +58,7 @@
         <div class="container">
           <div class="row">
             <div class="col-sm card bg-light p-0 m-2">
-              <a href="#" class="cardT">
+              <a href="dojazd.php" class="cardT">
                 <div class="card-body ">
                 <h5 class="card-title m-0">Zobacz jak do nas dojechać !</h5>
               </div>
@@ -69,7 +69,7 @@
             </a>
             </div>
             <div class="col-sm card bg-light p-0 m-2">
-              <a href="#" class="cardT">
+              <a href="klucze.php" class="cardT">
                 <div class="card-body ">
                   <h5 class="card-title m-0">Zobacz jak odebrać od nas klucze !</h5>
                 </div>
@@ -80,7 +80,7 @@
               </a>
             </div>
             <div class="col-sm card bg-light p-0 m-2">
-              <a href="#" class="cardT">
+              <a href="kontakt.php" class="cardT">
                 <div class="card-body ">
                   <h5 class="card-title m-0">Zapytaj o wolny termin !</h5>
                 </div>

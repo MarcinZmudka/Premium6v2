@@ -1,11 +1,11 @@
 /*****deklaracja zmiennych*****/
-const marks = document.querySelector('.marks');
-const marks2 = document.querySelector('.marks2');
-const card = document.querySelectorAll('.card');
+const marks = document.querySelector(".marks");
+const marks2 = document.querySelector(".marks2");
+const card = document.querySelectorAll(".card");
 const book = document.querySelector(".booktext");
-const bookP = document.querySelector('.bookPhoto');
+const bookP = document.querySelector(".bookPhoto");
 var table = [book, bookP, marks, marks2];
-const boxes = document.querySelectorAll('.box');
+const boxes = document.querySelectorAll(".box");
 for (let a = 0; a < card.length; a++) {
   table.push(card[a]);
 }
@@ -17,6 +17,6 @@ table = table.filter((value, index, arr) => {
 });
 /*****dodanie listenera*****/
 if (table.length > 0) {
-  window.addEventListener('scroll', show);
+  window.addEventListener("scroll", show);
   show();
 }
