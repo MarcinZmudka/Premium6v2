@@ -16,7 +16,11 @@
           <div class="formula col-sm ">Grzegorz - +48 507 000 298</div>
           <div class="formula col-sm">noclegi.bialka@gmail.com</div>
         </div>
-        <p>Zapytania o wolne terminy prosimu kierować na jeden z powyższych numerów lub adres email.</p>
+        <p class='title'>Zapytania o wolne terminy prosimu kierować na jeden z powyższych numerów lub adres email.</p>
+        <h3>FAQ - najczęściej zadawane pytania</h3>
+        <p class="title">1. W co wyposażony jest apartament ?</p>
+        <p class="text">Apartament jest w pełni wyposażony. Posiada lodówkę, mikrofalówkę, płytę indukcyjną, czajnik, ekspress do kawy, dwa telewizory z telewizją satelitarną.</p>
+
       </div>
       <div class="col-lg-2"></div>
     </div>

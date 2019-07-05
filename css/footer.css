@@ -1,0 +1,13 @@
+.footer{
+    margin: 0;
+    background-color: #4f4f4f;
+    display: block;
+  }
+  .footLink:hover{
+    color: #e9ecef;
+  }
+  .contact{
+    font-weight: 400;
+    font-size: 3vh;
+  }
+  

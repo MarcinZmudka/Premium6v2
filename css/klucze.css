@@ -5,6 +5,7 @@ h2{
 }
 .text{
     text-align: justify;
+    font-size: 20px;
 }
 .photos{
     position: relative;

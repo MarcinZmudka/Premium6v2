@@ -2,7 +2,7 @@
         <div class="row text-center p-3">
           <div class="col-md-4 contact">
             <h3 class="text-center"><strong>APARTAMENT PREMIUM 6</strong></h3><h4 class="mt-3">ul. Środkowa 302a<br>Białka Tatrzańska
-  					<p class="mt-4"><a href="#" class="footLink">Zobacz jak do nas dojechać!</a></p></h4>
+  					<p class="mt-4"><a href="./dojazd.php" class="footLink">Zobacz jak do nas dojechać!</a></p></h4>
           </div>
           <div class="col-md-4 py-3">
             <a href="#"><i class="fab fa-facebook-square iconFB"></i></a>

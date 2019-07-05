@@ -1,52 +1,71 @@
-.text{
-    margin: 0;
-    font-size: 20px;
-    text-align: justify;
+.text {
+  margin: 0;
+  font-size: 20px;
+  text-align: justify;
 }
-h2{
-    font-family: "Raleway", sans-serif;
-    margin: 2vh 0;
-    font-weight: 700;
+h2 {
+  font-family: "Raleway", sans-serif;
+  margin: 2vh 0;
+  font-weight: 700;
 }
-
-.formula{
-    position: relative;
-    padding: 5px;
-    font-size: 20px;
-    display: inline-block;
-    text-align: center;
-    transition: transform .3s ease-in-out;
-}
-.formula:hover{
-    transform: translateY(-10px);
-    cursor: pointer;
-}
-.formula:hover::after{
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    width: 1px;
-    height: 2px;
-    z-index: 100;
-    background-color: black;
-    transform: translate(-50%,-50%);
-    animation: under 1s both ease-in-out;
-}
-@keyframes under{
-    0%{
-        opacity: 0;
-    }
-    10%{
-        opacity:1;
-    }
-    100%{
-        transform: scaleX(250);
-    }
-}
-p{
-    margin: 20px 0;
-    text-align: center;
-    font-size: 18px;
+h3 {
+  font-family: "Raleway", sans-serif;
+  margin: 2vh 0;
+  font-weight: 700;
 }
 
+.formula {
+  position: relative;
+  padding: 5px;
+  font-size: 20px;
+  display: inline-block;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+.formula:hover {
+  transform: translateY(-10px);
+  cursor: pointer;
+}
+.formula:hover::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 1px;
+  height: 2px;
+  z-index: 100;
+  background-color: black;
+  transform: translate(-50%, -50%);
+  animation: under 1s both ease-in-out;
+}
+@keyframes under {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  100% {
+    transform: scaleX(250);
+  }
+}
+.title {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 18px;
+}
+.text {
+  text-align: justify;
+  font-size: 17px;
+}
+img {
+  width: 100%;
+  height: auto;
+  margin: 0 0 20px 0;
+  /*border-radius: 20px;*/
+  transition: transform 1s ease-in-out;
+  backface-visibility: hidden;
+}
+img:hover {
+  transform: perspective(1000px) rotateY(180deg);
+}

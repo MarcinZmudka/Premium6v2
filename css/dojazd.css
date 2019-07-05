@@ -11,20 +11,28 @@ h2{
 .text{
     margin: 15px 0 0 0;
     text-align: justify;
+    font-size: 20px;
 }
-a{
+.arrive{
     position: relative;
     text-decoration: none;
     color: black;
     font-size: 18px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
+    text-align: center;
+    margin: 15px 0;
     
+}
+.arrive:hover{
+    color: black;
+}
+a{
+    text-decoration: none;
 }
 a:hover{
     color: black;
 }
-
 .arrive:hover::after{
     content: '';
     position: absolute;
@@ -47,8 +55,4 @@ a:hover{
     100%{
         transform: scaleX(300);
     }
-}
-p{
-    text-align: center;
-    margin: 15px 0;
 }
