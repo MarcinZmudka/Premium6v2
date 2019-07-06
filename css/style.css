@@ -116,9 +116,8 @@ body{
     }
 }
 .moveUp{
-  animation: moveUp ;
+  animation: moveUp forwards;
   animation-duration: 2s;
-  opacity: 1 !important;
 }
 @keyframes moveUp {
     0%{

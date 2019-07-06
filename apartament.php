@@ -2,9 +2,10 @@
 <html lang="pl" dir="ltr">
 
 <head>
-  <?php include 'includes/head.php' ?>
   <link rel="stylesheet" href="css/apartament.css">
   <link rel="stylesheet" href="css/apartament_box.css">
+  <?php include 'includes/head.php' ?>
+  
 </head>
 
 <body>
@@ -27,7 +28,7 @@
           najwybredniejszych sportowców. Do centrum Białki Tatrzańskiej jest około 500m, po drodze, można zaopatrzyć się
           w świeżo wypiekany chlebek pierkarni „Burkaty”. Do term Bania jest około 1km.
         </div><br>
-        <div class="text3 mb-5">Nasz Apartament urządziliśmy z myślą o naszych klientach, więc kierowaliśmy się nie
+        <div class="text3 mb-3">Nasz Apartament urządziliśmy z myślą o naszych klientach, więc kierowaliśmy się nie
           tylko komfortem i praktyką ale również estetyką i wygodą, która charakteryzuje nasz Apartament.
         </div><br>
       </div>

@@ -105,7 +105,7 @@
           </div>
         </div>
       </div>
-      <div class="jumbotron mb-0 mt-4 pt-4">
+      <div class="jumbotron mb-0 mt-4 pt-4 py-4">
         <div class="container">
           <h2 class="markTitle">Sprawdź opinie naszych gości:</h2>
           <div class="row marks my-4 ">
