@@ -18,27 +18,27 @@
         </div>
         <p class='center'>Zapytania o wolne terminy prosimu kierować na jeden z powyższych numerów lub adres email.</p>
         <h3>FAQ - najczęściej zadawane pytania</h3>
-        <div class="box">
+        <div class="board">
           <p class="title">W co wyposażony jest apartament ?</p>
           <p class="text">Apartament jest w pełni wyposażony. Posiada lodówkę, mikrofalówkę, płytę indukcyjną, czajnik, ekspress do kawy, dwa telewizory z telewizją satelitarną.</p>
         </div>
-        <div class="box">
+        <div class="board">
           <p class="title">Czy przy apartamencie jest parking ?</p>
           <p class="text">Tak, do apartamentu przydzielone jest prywatne miejsce parkingowe.</p>
         </div>
-        <div class="box">
+        <div class="board">
           <p class="title">Czy w lokalu jest internet ?</p>
           <p class="text">Tak, dla naszych gości zapewniamy bezpłatny dostęp do internetu (Wifi).</p>
         </div>
-        <div class="box">
+        <div class="board">
           <p class="title">Czy w lokalu jest telewizja satelitarna ?</p>
           <p class="text">Apartament wyposażony jest w dwa telewizory z dostępem do telewizji satelitarnej.</p>
         </div>
-        <div class="box">
-          <p class="title">Czy wokół budynku jest plac zabaw dla dzieci bądź miejsce spotkań towarzystkich</p>
+        <div class="board">
+          <p class="title">Czy wokół budynku jest plac zabaw dla dzieci bądź miejsce spotkań towarzystkich ?</p>
           <p class="text">Nasi goście mają dostęp do grillowni, z której mogą swobodnie korzystać.</p>
         </div>
-        <div class="box">
+        <div class="board">
           <p class="title">Czy w budynku jest przechowywalnia sprzętu narciarskeigo ?</p>
           <p class="text">Owszem goście otrzymują klucze do narciarni, w której mogą przechowywać swój sprzęt narciarski</p>
         </div>

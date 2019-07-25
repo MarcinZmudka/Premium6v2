@@ -24,24 +24,31 @@
             </div>
             <div class="carousel-item" data-interval="5000">
               <img src="images/apartament.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block ">
-                <h1>Apartament</h1>
-                <p><h4>Tutaj dowiesz się wiecej o tym co nasz Apartament ma do zaoferowania</h4></p>
-              </div>
+              <a href="apartament.php">
+                <div class="carousel-caption d-none d-md-block ">
+                  <h1>Apartament</h1>
+                  <p><h4>Tutaj dowiesz się wiecej o tym co nasz Apartament ma do zaoferowania</h4></p>
+                </div>
+              </a>
             </div>
             <div class="carousel-item" data-interval="5000">
               <img src="images/atrakcje.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block ">
-                <h1>Atrakcje</h1>
-                <p><h4>Białka Tatrzańska to nie tylko termy ale i ..</h4></p>
-              </div>
+              <a href="atrakcje.php">
+                <div class="carousel-caption d-none d-md-block ">
+                  <h1>Atrakcje</h1>
+                  <p><h4>Białka Tatrzańska to nie tylko termy ale i ..</h4></p>
+                </div>
+              </a>
+              
             </div>
             <div class="carousel-item" data-interval="5000">
               <img src="images/kontakt.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block ">
-                <h1>Kontakt</h1>
-                <p><h4>Uzyskaj informacje na temat cen, dostępnych terminów oraz wskazówek dojazdu!</h4></p>
-              </div>
+              <a href="kontakt.php">
+                <div class="carousel-caption d-none d-md-block ">
+                  <h1>Kontakt</h1>
+                  <p><h4>Uzyskaj informacje na temat cen, dostępnych terminów oraz wskazówek dojazdu!</h4></p>
+                </div>
+              </a>
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
@@ -100,7 +107,7 @@
           </div>
           <div class="col-md-6 booktext ">
             <div class="text">
-              <h5>Zostaliśmy odznaczeni!</h5><br> consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              <h5>Zostaliśmy odznaczeni!</h5><br>Jest nam bardzo miło oznajmić, że serwis Booking.com odznaczył nas nagrodą za wysoką średnią ocen otrzymanych od naszych gości wynoszącą 9.5/10 punktów. Dziękujemy! 
             </div>
           </div>
         </div>

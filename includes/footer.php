@@ -5,7 +5,7 @@
   					<p class="mt-4"><a href="./dojazd.php" class="footLink">Zobacz jak do nas dojechać!</a></p></h4>
           </div>
           <div class="col-md-4 py-3">
-            <a href="#"><i class="fab fa-facebook-square iconFB"></i></a>
+            <a href="https://www.facebook.com/Apartament-Premium-6-Bia%C5%82ka-Tatrza%C5%84ska-1464019113904300"><i class="fab fa-facebook-square iconFB"></i></a>
           </div>
           <div class="col-md-4" class="contact">
             <h3 class="">SKONTAKTUJ SIĘ Z NAMI!</h3>

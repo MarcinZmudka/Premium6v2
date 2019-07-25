@@ -27,9 +27,9 @@ h3 {
   bottom: 0;
   left: 50%;
   width: 1px;
-  height: 2px;
+  height: 3px;
   z-index: 100;
-  background-color: black;
+  background-color: rgba(186, 194, 239, 0.7);
   transform: translate(-50%, -50%);
   animation: under 1s both ease-in-out;
 }
@@ -44,29 +44,32 @@ h3 {
     transform: scaleX(250);
   }
 }
-.box {
-  /*border: 2px solid black;*/
+.board {
   padding: 20px;
   margin: 5px 0;
-  opacity: 0;
-  background-color: #d9d9d940;
   position: relative;
-  transition: background-color .5s ease-in-out;
 }
-.box:hover {
-  background-color: white;
-}
-.box::after {
-  content: "";
+.board::before, .board::after{
+  content: '';
   width: 100%;
   height: 100%;
-  border: 2px solid black;
-  position: absolute;
   top: 0;
   left: 0;
-  transition: transform .3s ease-in-out;
+  position: absolute;
+  transition: transform .5s ease-in-out, opacity 1s ease-in-out;
 }
-.box:hover::after{
+.board::before{
+  background-color: rgba(186, 194, 239, 0.4);
+  z-index: -1;
+}
+.board:hover::before{
+  opacity: 0;
+}
+.board::after {
+  border: 2px solid black;
+  
+}
+.board:hover::after,.board:hover::before{
   transform: translateX(-10px);
 }
 .title {

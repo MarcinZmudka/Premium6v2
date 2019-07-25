@@ -9,7 +9,6 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-2">
-
       </div>
       <div class="col-lg-8 text">
         <h2>ODBIÓR KLUCZY</h2>
@@ -19,6 +18,7 @@
             <img class = "col-xl" src="photos/sejf/sejf (2).jpg" alt="">
             <img class = "col-xl" src="photos/sejf/sejf (3).jpg" alt="">
         </div>
+        <p class="arrive"><a href="kontakt.php">Zapytaj o wolny termin !</a></p>
       </div>
       <div class="col-lg-2">
 

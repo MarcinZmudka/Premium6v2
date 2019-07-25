@@ -10,3 +10,46 @@ h2{
 .photos{
     position: relative;
 }
+.arrive{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin: 15px 0;
+    
+}
+.arrive:hover{
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+}
+.arrive:hover::after{
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 50%;
+    width: 1px;
+    height: 2px;
+    z-index: 100;
+    background-color: black;
+    transform: translate(-50%,-50%);
+    animation: under 1s both ease-in-out;
+}
+@keyframes under{
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity:1;
+    }
+    100%{
+        transform: scaleX(250);
+    }
+}
