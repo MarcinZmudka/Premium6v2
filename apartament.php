@@ -70,6 +70,7 @@
     <?php include 'includes/footer.php' ?>
   </footer>
   <?php include 'includes/scripts.php' ?>
+  <script src="js/loader.js"></script>
   <script src="js/addphoto.js"></script>
 </body>
 </html>

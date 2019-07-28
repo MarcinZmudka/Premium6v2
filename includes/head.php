@@ -7,5 +7,15 @@
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/footer.css">
 <link rel="stylesheet" href="css/navbar.css">
-<!-- keywords ??? -->
+<META name="description" content="Zapraszamy do Apartamentu Premium6 znajdującego się w sercu Białki Tatrzańskiej. ">
+<META name="keywords" content="Białka Tatrzańska Apartament, Białka Tatrzańska Nocleg, Białka Tatrzańska Wypoczynek, Wypoczynek, Białka Tatrzańska, zima w górach, lato w górach, Zakopane">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-43794295-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-43794295-3');
+</script>
 <title>Apartament Premium 6</title>
