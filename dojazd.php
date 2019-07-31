@@ -21,10 +21,10 @@
                Poniżej zamieszaczmy kilka zdjęć orientacyjcnych, które pomogą Panstwu trafić do naszego Apartamentu.
             </p>
            <div class="row">
-            <img class="col-xl" src="photos/dojazd/dojazd1.jpg" alt="">
-            <img class="col-xl" src="photos/dojazd/dojazd2.jpg" alt="">
-            <img class="col-xl" src="photos/dojazd/dojazd3.jpg" alt="">
-            <img class="col-xl" src="photos/dojazd/dojazd4.jpg" alt="">
+            <img class="col-xl photo" src="photos/dojazd/dojazd1.jpg" alt="">
+            <img class="col-xl photo" src="photos/dojazd/dojazd2.jpg" alt="">
+            <img class="col-xl photo" src="photos/dojazd/dojazd3.jpg" alt="">
+            <img class="col-xl photo" src="photos/dojazd/dojazd4.jpg" alt="">
            </div>
            <p class="arrive"><a href="klucze.php">Zobacz jak odebrać od nas klucze!</a></p>
       </div>

@@ -14,9 +14,9 @@
         <h2>ODBIÓR KLUCZY</h2>
         <p class="text">Premium6 jest wyposażony w bezosobowy odbiór kluczy. W dniu przyjazdu dostaną Państwo SMS z kodem aktywacyjnym do sejfu znajdującego się w grillowni. W sejfie znajdują się klucze do Apartamentu. Mogą Państwo przyjechać o dowolnej porze a Apartament będzie na Państwa czekał gotowy. Poniżej zamieszaczmy kilka zdjęć Grillowni oraz sejfu.</p>
         <div class="row">
-            <img class = "col-xl" src="photos/sejf/sejf (1).jpg" alt="">
-            <img class = "col-xl" src="photos/sejf/sejf (2).jpg" alt="">
-            <img class = "col-xl" src="photos/sejf/sejf (3).jpg" alt="">
+            <img class = "col-xl photo"  src="photos/sejf/sejf (1).jpg" alt="">
+            <img class = "col-xl photo" src="photos/sejf/sejf (2).jpg" alt="">
+            <img class = "col-xl photo" src="photos/sejf/sejf (3).jpg" alt="">
         </div>
         <p class="arrive"><a href="kontakt.php">Zapytaj o wolny termin !</a></p>
       </div>

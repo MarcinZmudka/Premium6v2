@@ -109,7 +109,7 @@ h1{
     }
 }
 .moveUp{
-  animation: moveUp forwards;
+  animation: moveUp backwards;
   animation-duration: 2s;
 }
 @keyframes moveUp {
