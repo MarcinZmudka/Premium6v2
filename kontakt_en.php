@@ -13,7 +13,7 @@
         <h2>SKONTAKTUJ SIĘ Z NAMI!</h2><br>
         <div class="row contactform">
           <div class="formula col-sm">Alina - +48 608 593 000</div>
-          <div class="formula col-sm ">Grzegorz - +48 507 000 298</div>
+          <div class="formula col-sm ">Grzegorz - +48 514 459 078</div>
           <div class="formula col-sm">noclegi.bialka@gmail.com</div>
         </div>
         <p class='center'>Zapytania o wolne terminy prosimu kierować na jeden z powyższych numerów lub adres email.</p>
