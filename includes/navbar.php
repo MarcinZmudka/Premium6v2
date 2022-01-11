@@ -11,6 +11,6 @@
           <li class="nav-item"><a href="kontakt.php" class="nav-link <?php if($page=="kontakt") echo "active"; ?>">Kontakt</a></li>
           <li class="nav-item"><a href="#" class="nav-link d-md-none <?php if($page=="home1") echo "active"; ?>">Click for English!</a></li>
         </ul>
-        <button type="button" class="btn btn-outline-secondary d-none d-md-block <?php if($page=="home1") echo "active"; ?>">Click for English!</button>
+        <button type="button" onclick = "location.href='index_en.php'" class="btn btn-outline-secondary d-none d-md-block <?php if($page=="home1") echo "active"; ?>">Click for English!</button>
       </div>
 </nav>

@@ -9,7 +9,7 @@
           </div>
           <div class="col-md-4" class="contact">
             <h3 class="">SKONTAKTUJ SIĘ Z NAMI!</h3>
-            <p class="contact">(+48) 608 593 000<br>(+48) 514 459 078<br>noclegi.bialka@gmail.com</p>
+            <p class="contact">(+48) 608 593 000<br>(+48) 507 000 298<br>noclegi.bialka@gmail.com</p>
           </div>
         </div>
 </div>

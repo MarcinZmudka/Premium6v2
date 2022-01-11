@@ -14,36 +14,51 @@ h2{
     font-size: 20px;
 }
 .arrive{
+    margin: 15px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     text-decoration: none;
     color: black;
     font-size: 18px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
-    text-align: center;
-    margin: 15px 0;
-    
+    position: relative;
+    /*text-align: center;*/    
 }
-.arrive:hover{
+/* .arrive:hover{
     color: black;
-}
+} */
 a{
+    position: relative;
     text-decoration: none;
 }
 a:hover{
     color: black;
 }
-.arrive:hover::after{
+/* a:hover::after{
     content: '';
     position: absolute;
     bottom: -3px;
     left: 50%;
-    width: 1px;
-    height: 2px;
+    width: 30%;
+    height: 2px; 
     z-index: 100;
     background-color: black;
     transform: translate(-50%,-50%);
-    animation: under 1s both ease-in-out;
+    animation: under 3s forwards ease-in-out;
+} */
+.link{
+    position: relative;
+}
+.border{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: black;
 }
 @keyframes under{
     0%{
@@ -53,7 +68,7 @@ a:hover{
         opacity:1;
     }
     100%{
-        transform: scaleX(300);
+        border: scaleX(200);
     }
 }
 .photo{

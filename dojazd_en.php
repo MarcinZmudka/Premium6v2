@@ -26,7 +26,7 @@
             <img class="col-xl photo" src="photos/dojazd/dojazd3.jpg" alt="">
             <img class="col-xl photo" src="photos/dojazd/dojazd4.jpg" alt="">
            </div>
-           <p class="arrive"><a class="link" href="klucze.php"><p class = "border"></p>Zobacz jak odebrać od nas klucze!</a></p>
+           <p class="arrive"><a href="klucze.php">Zobacz jak odebrać od nas klucze!</a></p>
       </div>
       <div class="col-lg-2">
       </div>
